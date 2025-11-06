@@ -26,3 +26,4 @@ if __name__ == "__main__":
     b = float(input("Enter second number: "))
 
 print("hello my dear friend")
+print("This is a new file added for GitHub practice.")
