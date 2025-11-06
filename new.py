@@ -25,5 +25,7 @@ if __name__ == "__main__":
     a = float(input("Enter first number: "))
     b = float(input("Enter second number: "))
 
-print("hello my dear friend")
-print("This is a new file added for GitHub practice.")
+    print(f"{a} + {b} = {add(a, b)}")
+    print(f"{a} - {b} = {subtract(a, b)}")
+    print(f"{a} * {b} = {multiply(a, b)}")
+    print(f"{a} / {b} = {divide(a, b)}")
